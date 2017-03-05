@@ -18,7 +18,7 @@ img:hover {
 }
 
 a:hover {
-    color: red;
+    color: #fe892b;
 }
 
 a {
@@ -87,9 +87,10 @@ h3 {
 
 .helper h3 {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #f5883b;
+    color: #fe892b;
     font-weight: 300;
     font-size: 20px;
+    text-align: center;
 }
 
 h5 {
@@ -145,6 +146,10 @@ li {
     border-bottom: double #efeeec 4px;
 }
 
+.bio a {
+  border-bottom: 1px dotted #dbd9d4;
+}
+
 .book-cover {
     width: auto;
     display: inline-block;
@@ -154,7 +159,7 @@ li {
 
 .social-media {
     display: inline-block;
-    color: #ff0000;
+    color: #fe892b;
 }
 
 .social-media li:hover {
@@ -278,11 +283,6 @@ li {
     max-width: 65%;
     position: absolute;
     right: 0;
-}
-
-.helper h3 {
-    text-align: center;
-    color: #ff0000;
 }
 
 .helper ul {
